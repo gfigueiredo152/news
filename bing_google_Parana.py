@@ -15,10 +15,10 @@ import Google_BigQuery
 def mysql_ent(title, link, source, Datas, snippet, valor, Vag_link, Regiao, Microregiao, Cidade):
     try:
         db_config = {
-            'host': '35.239.141.124',
-            'user': 'root',
-            'password': "G|cP^D'Ej1<u;I<F",
-            'database': 'twoMaths',
+            'host': -----
+            'user': -------
+            'password': ---------
+            'database': --------------
         }
 
         conn = mysql.connector.connect(**db_config)
